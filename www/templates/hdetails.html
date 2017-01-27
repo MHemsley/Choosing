@@ -1,0 +1,46 @@
+<ion-view view-title="CHOOSING">
+
+  <!-- Back button -->
+  <ion-nav-buttons side="left">
+    <a href="#/tab/help" class="button button-icon icon ion-ios-arrow-back"></a>
+  </ion-nav-buttons>
+
+  <!-- Help details content -->
+  <ion-content class="padding has-header">
+      <ion-list class="list-inset">
+        <ion-item class="item-text-wrap" ng-repeat="item in help | filter: {id: whichhelp}">
+          <h2 class="help">{{item.name | uppercase}}</h2><br/>
+          <p>{{item.description}}</p><br/>
+          <h2 class="title"> RELATED DIFFICULTIES</h2><br/>
+            <ul>
+              <p><li ng-show="item.rating3">{{item.rating3}} <img class="rating" src="img/three.png"></li>
+              <li ng-show="item.d31name"><a href="{{item.d31link}}">{{item.d31name}}</a></li>
+              <li ng-show="item.d32name"><a href="{{item.d32link}}">{{item.d32name}}</a></li>
+              <li ng-show="item.d33name"><a href="{{item.d33link}}">{{item.d33name}}</a></li>
+              <li ng-show="item.d34name"><a href="{{item.d34link}}">{{item.d34name}}</a></li>
+              <li ng-show="item.d35name"><a href="{{item.d35link}}">{{item.d35name}}</a></li>
+              <li ng-show="item.d36name"><a href="{{item.d36link}}">{{item.d36name}}</a></li>
+              <li ng-show="item.d37name"><a href="{{item.d37link}}">{{item.d37name}}</a></li>
+              <br/>
+              <li ng-show="item.rating2">{{item.rating2}} <img class="rating" src="img/two.png"></li>
+              <li ng-show="item.d21name"><a href="{{item.d21link}}">{{item.d21name}}</a></li>
+              <li ng-show="item.d22name"><a href="{{item.d22link}}">{{item.d22name}}</a></li>
+              <li ng-show="item.d23name"><a href="{{item.d23link}}">{{item.d23name}}</a></li>
+              <li ng-show="item.d24name"><a href="{{item.d24link}}">{{item.d24name}}</a></li>
+              <li ng-show="item.d25name"><a href="{{item.d25link}}">{{item.d25name}}</a></li>
+              <li ng-show="item.d26name"><a href="{{item.d26link}}">{{item.d26name}}</a></li>
+              <li ng-show="item.d27name"><a href="{{item.d27link}}">{{item.d27name}}</a></li>
+              <br/>
+              <li ng-show="item.rating1">{{item.rating1}} <img class="rating" src="img/one.png"></li>
+              <li ng-show="item.d11name"><a href="{{item.d11link}}">{{item.d11name}}</a></li>
+              <li ng-show="item.d12name"><a href="{{item.d12link}}">{{item.d12name}}</a></li>
+              <li ng-show="item.d13name"><a href="{{item.d13link}}">{{item.d13name}}</a></li>
+              <li ng-show="item.d14name"><a href="{{item.d14link}}">{{item.d14name}}</a></li>
+              <li ng-show="item.d15name"><a href="{{item.d15link}}">{{item.d15name}}</a></li>
+              <li ng-show="item.d16name"><a href="{{item.d16link}}">{{item.d16name}}</a></li>
+              <li ng-show="item.d17name"><a href="{{item.d17link}}">{{item.d17name}}</a></li>
+            </ul>
+        </ion-item>
+      </ion-list>
+    </ion-content>
+</ion-view>

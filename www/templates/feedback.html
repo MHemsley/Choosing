@@ -1,0 +1,28 @@
+<ion-view view-title="Feedback">
+
+  <!-- Back button -->
+  <ion-nav-buttons side="left">
+    <a href="#/tab/difficulties" ng-Controller="AppController" ng-click = "goBack()" class="button button-icon icon ion-ios-arrow-back"></a>
+  </ion-nav-buttons>
+
+  <!-- Feedback content -->
+   <ion-content>
+     <ion-list class="list-inset">
+       <ion-item class="item-text-wrap item-balanced">
+           <h2 class="survey"><i class="icon ion-clipboard padding"></i>Survey</h2>
+       </ion-item>
+       <ion-item class="item-text-wrap survey-content">
+         <div class="survey-text">We would really like to know what you think of this site, so we can make future versions better:</div></br>
+         <div class="survey-text" ng-click="openPage14()"><a href="" class="survey-link">Go to Survey</a></div>
+      </ion-item>
+      <ion-item class="item-text-wrap">
+      </ion-item>
+      <ion-item class="item-text-wrap item-balanced">
+        <h2 class="contact"><i class="icon ion-ios-email-outline padding"></i>Contact us</h2>
+      </ion-item>
+      <ion-item class="item-text-wrap contact-content">
+        Our e-mail address is: <a href="" ng-click="openPage15()" class="email">ebpu@annafreud.org</a>
+      </ion-item>
+     </ion-list>
+   </ion-content>
+</ion-view>

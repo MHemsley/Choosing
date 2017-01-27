@@ -1,0 +1,30 @@
+<ion-view view-title="LOCATION OF HELP CENTERS">
+
+	<!-- Back button -->
+	<ion-nav-buttons side="left">
+		<a href="#/tab/about" class="button button-icon icon ion-ios-arrow-back" ></a>
+	</ion-nav-buttons>
+
+	<!-- Location of help centers page -->
+	<ion-content class="padding" ng-controller="InfoController">
+		<ion-list class="list-inset">
+			<ion-item class="item-text-wrap">
+				<h1 class="Center-title">Location of Help Centers</h1>
+				<hr class="Center-hr" />
+				<div class="card padding" ng-click="openMap1()">
+					<div class="item item-divider">
+						The London Mental Healthcare Centre
+					</div>
+					<div class="item">
+						<img class="Center-display" ng-src="img/Center1.png">
+					</div>
+					<div class="item item-divider">
+						Address: 78-80 Arran Rd, London SE6 2NN
+						<br/>
+						Phone:020 8698 8770
+					</div>
+				</div>
+			</ion-item>
+		</ion-list>
+	</ion-content>
+</ion-view>

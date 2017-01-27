@@ -1,0 +1,17 @@
+<ion-view view-title="CHOOSING">
+
+  <!-- Help tab content -->
+  <ion-content>
+    <ion-list>
+      <ion-item  class="item item-text-wrap card padding" ng-repeat='item in help'>
+        <h2 class="help">{{item.name | uppercase}}</h2><br/>
+        <p align="justify">{{item.description}}</p><br/>
+        <div align="right">
+          <a ng-href="#/tab/help/{{item.id}}">
+            <button class="button button-small button-balanced">See more</button>
+          </a>
+        </div>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

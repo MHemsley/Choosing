@@ -1,0 +1,212 @@
+.home-display {
+	width: 70%;
+	clear:both;
+	display: block;
+	margin:auto;
+}
+.Card-content{
+	color:grey;
+}
+.UsInfo-title{
+	color: #3c903f;
+	margin-top: 2em;
+	margin-left: 0.5em;
+	margin-right: : 0.5em;
+}
+.UsInfo-hr{
+	max-width: 20%;
+	border-color: #3c903f;
+	border-style: solid;
+	margin-top: 1em;
+	margin-left: 1.5em;
+	margin-right: : 1.5em;
+}
+.UsInfo-list{
+	text-align: justify;
+	font-size: 1.25em;
+	color: grey;
+	margin-top: 1em;
+	margin-left: 1.5em;
+}
+.Center-title{
+	color: #3c903f;
+	margin-top: 2em;
+	margin-left: 0.5em;
+	margin-right: : 0.5em;
+}
+.Center-hr{
+	max-width: 20%;
+	border-color: #3c903f;
+	border-style: solid;
+	margin-top: 1em;
+	margin-left: 1.5em;
+	margin-right: : 1.5em;
+}
+.Center-display{
+	clear: both;
+	display: block;
+	margin:auto;
+
+}
+.Rating-title{
+	color: #3c903f;
+	margin-top: 2em;
+	margin-left: 0.5em;
+	margin-right: : 0.5em;
+}
+.Rating-hr{
+	max-width: 20%;
+	border-color: #3c903f;
+	border-style: solid;
+	margin-top: 1em;
+	margin-left: 1.5em;
+	margin-right: : 1.5em;
+}
+.Rating-likely{
+	color:#3c903f;
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-top: 1em;
+	margin-left: 1em;
+}
+.Rating-display{
+	width: 3em;
+	size: 3em;
+	clear:both;
+	display: block;
+	margin-left: 1.5em;
+}
+.Rating-mean{
+	text-align: justify;
+	font-size: 1em;
+	color: grey;
+	margin-left: 1.5em;
+	margin-right: 1.5em;
+}
+.FAQ-title{
+	color: #3c903f;
+	margin-top: 2em;
+	margin-left: 0.5em;
+	margin-right: : 0.5em;
+}
+.FAQ-hr{
+	max-width: 20%;
+	border-color: #3c903f;
+	border-style: solid;
+	margin-top: 1em;
+	margin-left: 1.5em;
+	margin-right: : 1.5em;
+}
+.FAQ-question{
+	font-size: 1.5em;
+	font-weight: bold;
+	color: #3c903f;
+	margin-top: 1em;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+.FAQ-answer{
+	text-align: justify;
+	font-size: 1em;
+	color: grey;
+	margin-top: 1em;
+	margin-left: 1.5em;
+	margin-right: 1.5em;
+}
+
+/*Ioanna's CSS*/
+
+input::-webkit-input-placeholder {
+  color: white ;
+}
+
+input:-moz-placeholder {
+  color: white ;
+}
+
+input:-ms-input-placeholder {
+  color: white ;
+}
+
+.item-input-wrapper {
+  background-color: #44a247;
+}
+
+.difficulty {
+  color: #3c903f;
+  font-weight: bold;
+}
+
+.title {
+  color: #3c903f;
+}
+
+.help {
+  color: #3c903f;
+}
+
+li {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.rating {
+  height: 13px;
+}
+
+
+p {
+  text-align: justify;
+}
+
+.tabs-top.subheader > .tabs {
+  top: 88px; }
+
+.survey {
+	color: white;
+	font-weight: bold;
+}
+
+.contact {
+	color: white;
+	font-weight: bold;
+}
+
+.survey-content {
+	background-color: #3c903f;
+	padding-left: 48px;
+}
+
+.survey-text {
+	color: white;
+	font-size: 14px;
+
+}
+
+.survey-link {
+	color: white;
+}
+
+.email {
+	color: white;
+}
+
+
+.contact-content {
+	background-color: #3c903f;
+	color: white;
+	font-size: 14px;
+	padding-left: 48px;
+}
+
+.appguide-title{
+	color: #3c903f;
+}
+.appguide-hr{
+	max-width: 40%;
+	border-color: #3c903f;
+	border-style: solid;
+	margin-top: 1em;
+	margin-left: 0em;
+
+}
